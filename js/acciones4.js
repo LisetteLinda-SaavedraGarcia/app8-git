@@ -10,9 +10,9 @@ $(document).ready(function (e){
 		document.addEventListener("pause",function(){
 			escribehistoria ('la app se pausó');
 		},false);//pause
-		document.addEventListener("resumen",function(){
+		document.addEventListener("resume",function(){
 			escribehistoria('la app se reinició');
-		},false);//resumen
+		},false);//resume
 		document.addEventListener("online",function(){
 			escribehistoria('la app se conecto a la red');
 		},false);//se conecto
